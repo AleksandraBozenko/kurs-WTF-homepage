@@ -4,10 +4,27 @@
 @import "modules/hello.scss";
 
 body {
+  margin: 0;
+}
+.about-me{
+  background: rgb(199, 199, 199);
+  width: 100%;
+}
+.about-me--photo{
+  width: 300px;
+}
+.about-me--link{
+  color: rgb(106, 151, 16);
+}
+.about-learning{
+  width: 100%;
+  background: whitesmoke;
+}
+.footer{
+  width: 100%;
   background: $wtf;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+  color: whitesmoke;
+}
+.footer-link{
+  color:yellowgreen;
 }
